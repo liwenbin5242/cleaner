@@ -1,26 +1,25 @@
 <!--index.wxml-->
 
 <view class="gy1">
-    <image mode="widthFix" src="/image/banner/3.jpg"></image>
+    <image mode="widthFix" src="https://pic2.zhimg.com/80/v2-af161384b9079e1e81cc3438d832f161_720w.jpg"></image>
 </view>
  <view class="text">
         <view class="line_y"></view>
-        <text>关于捷驰</text>
+        <text>您知道吗？？</text>
     </view> 
      <view class="text2">
-        <text>临清市捷驰轴承有限公司是一家以生产及经营为一体的专业性轴承公司，我公司自主生产各种球轴承主打系列有: 双列角接触球轴承、汽车轮毂轴承、机床配件、五金滑轮、轴承配件、深沟球轴承、圆锥滚子轴承、非标准一体轴承。定做各种非标异型轴承。</text>
-				<text>公司产品规格齐全，具有低噪音、低振动、低摩擦力、高精度、高密封性、高运转性、长寿命，无异音等功能。广泛用于变速箱、仪器仪表、电气、家用电器、内燃机、交通车辆、农业机械、建筑机械、工程机械等行业。先进的生产设备、雄厚的技术力量使企业的产品得到有效的质量保证。我们工厂追求的是品质第一,服务第一,竭诚为广大客户服务. 为了满足更多的客户需求, 公司与多家零售商和代理商建立了长期稳定的合作关系. 希望更多的客户和我们联系洽谈业务。
-</text>
+        <text>家电产生的强烈静电牢固吸附大量灰尘和污垢，使得家电内部逐渐变滋生细菌的新场所，危害人们的健康。家用电器长期使用不做深度清洗，还会增加20%-30%的耗电量，影响电器的使用效率，也会缩短电器的使用寿命。所以对家用电器的清洗是很有必要的，为了让家用电器更好的发挥作用，也为了人们的身体健康，大家一定要重视家用电器的
+清洗和保养，定期对家电进行专业深度的清洗，让人们生活更健康、舒适、安心。</text>
     </view> 
  <view class="text">
         <view class="line_y"></view>
         <text>联系方式</text>
     </view> 
 <view class="contus">
-    <text>公司名称：XXXXXX轴承有限公司 </text>
-    <text bindtap="calling"> 联系电话：18088888888  [点击拨打]</text>
-    <text> 公司地址：XXXXXXXXX工业园</text>
+    <text>公司名称：辉县市纯康环保服务中心 </text>
+    <text bindtap="calling">电话/微信: 13837393378 </text> <button type="default" bindtap="calling">点击拨打客服电话</button>
+    <text> 公司地址：辉县市北云门镇后凡城村</text>
     <button type="default" bindtap="click">开始导航</button>
-    <button type="default" bindtap="calling">点击拨打客服电话</button>
+   
   </view>
-  <view class="jishuzc">技术支持：Mencre</view>
+  <view class="jishuzc">技术支持：lwb</view>

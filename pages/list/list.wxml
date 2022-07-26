@@ -1,121 +1,34 @@
 <view class="container">
   <view class="text">
     <view class="line_y"></view>
-    <text>非标轴承</text>
+    <text>家电清洗</text>
   </view>
   <view class="index_anli">
     <view>
-      <view wx:for="{{imgalist1}}" wx:for-item="image" class="index_anli_v" data-type="非标轴承">
+      <view wx:for="{{imgalist1}}" wx:for-item="image" class="index_anli_v" data-type="家电清洗">
         <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-        <text>非标轴承</text>
+        <text>家电清洗</text>
+      </view>
+      <view wx:for="{{videolist}}" wx:for-item="video" class="index_anli_v" data-type="视频测试">
+        <video id="myVideo" src="{{video}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture' bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
+        <text>家电清洗</text>
       </view>
     </view>
   </view>
-  <!------------------------------------------------------------------->
   <view class="text">
     <view class="line_y"></view>
-    <text>轨道滑轮轴承/调直轮轴承</text>
+    <text>甲醛治理</text>
   </view>
   <view class="index_anli">
     <view>
-      <view wx:for="{{imgalist2}}" wx:for-item="image" class="index_anli_v" data-type="轨道滑轮轴承">
+      <view wx:for="{{imgalist2}}" wx:for-item="image" class="index_anli_v" data-type="甲醛治理">
         <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-        <text>轨道滑轮轴承</text>
+        <text>甲醛治理</text>
       </view>
     </view>
   </view>
-  <!------------------------------------------------------------------->
-  <view class="text">
-    <view class="line_y"></view>
-    <text>角接触轴承</text>
-  </view>
-  <view class="index_anli">
-    <view wx:for="{{imgalist3}}" wx:for-item="image" class="index_anli_v" data-type="角接触轴承">
-      <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-      <text>角接触轴承</text>
-    </view>
-  </view>
-  <!------------------------------------------------------------------->
-  <view class="text">
-    <view class="line_y"></view>
-    <text>链条轴承</text>
-  </view>
-  <view class="index_anli">
-    <view>
-      <view wx:for="{{imgalist4}}" wx:for-item="image" class="index_anli_v" data-type="链条轴承">
-        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-        <text>链条轴承</text>
-      </view>
-    </view>
-  </view>
-  <!------------------------------------------------------------------->
-  <view class="text">
-    <view class="line_y"></view>
-    <text>滑轮轴承</text>
-  </view>
-  <view class="index_anli">
-    <view>
-      <view wx:for="{{imgalist5}}" wx:for-item="image" class="index_anli_v" data-type="滑轮轴承">
-        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-        <text>滑轮轴承</text>
-      </view>
-    </view>
-  </view>
-  <!------------------------------------------------------------------->
-  <view class="text">
-    <view class="line_y"></view>
-    <text>深沟球轴承</text>
-  </view>
-  <view class="index_anli">
-    <view>
-      <view wx:for="{{imgalist6}}" wx:for-item="image" class="index_anli_v" data-type="深沟球轴承">
-        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-        <text>深沟球轴承</text>
-      </view>
-    </view>
-  </view>
-  <!------------------------------------------------------------------->
-  <view class="text">
-    <view class="line_y"></view>
-    <text>一体轴承</text>
-  </view>
-  <view class="index_anli">
-    <view>
-      <view wx:for="{{imgalist7}}" wx:for-item="image" class="index_anli_v" data-type="一体轴承">
-        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-        <text>一体轴承</text>
-      </view>
-    </view>
-  </view>
-  <!------------------------------------------------------------------->
-  <view class="text">
-    <view class="line_y"></view>
-    <text>圆柱滚子轴承</text>
-  </view>
-  <view class="index_anli">
-    <view>
-      <view wx:for="{{imgalist8}}" wx:for-item="image" class="index_anli_v" data-type="圆柱滚子轴承">
-        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-        <text>圆柱滚子轴承</text>
-      </view>
-    </view>
-  </view>
-  <!------------------------------------------------------------------->
-  <view class="text">
-    <view class="line_y"></view>
-    <text>圆锥滚子轴承</text>
-  </view>
-  <view class="index_anli">
-    <view>
-      <view wx:for="{{imgalist9}}" wx:for-item="image" class="index_anli_v" data-type="圆锥滚子轴承">
-        <image src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
-        <text>圆锥滚子轴承</text>
-      </view>
-    </view>
-  </view>
-
   <view class="container">
     <text class="daodi">到底了</text>
   </view>
-  <view class="jishuzc">技术支持：Mencre</view>
+  <view class="jishuzc">技术支持：lwb</view>
 </view>
