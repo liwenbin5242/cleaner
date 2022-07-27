@@ -21,8 +21,8 @@ Page({
   },
   click: function (e) {
     wx.openLocation({
-      latitude: 40.712917,
-      longitude: 110.485931,
+      latitude: 35.398717,
+      longitude: 113.74961,
       scale: 18,
       name: "辉县市纯康环保服务中心",
       address: "辉县市北云门镇后凡城村纯康环保服务中心",

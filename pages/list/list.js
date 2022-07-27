@@ -7,7 +7,9 @@ Page({
     imgalist2: [
       "https://pic2.zhimg.com/80/v2-c9d2b9d547e9e4ccd604ffa77cddb311_720w.jpg",
     ],
-    videolist: ["https://pan.baidu.com/s/1tI4ztbdD6e08oWGkBiCJIw"],
+    videolist: [
+      "https://klxxcdn.oss-cn-hangzhou.aliyuncs.com/histudy/hrm/media/bg3.mp4",
+    ],
   },
   onReady: function () {
     wx.setNavigationBarTitle({

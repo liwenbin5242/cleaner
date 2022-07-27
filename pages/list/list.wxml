@@ -10,7 +10,7 @@
         <text>家电清洗</text>
       </view>
       <view wx:for="{{videolist}}" wx:for-item="video" class="index_anli_v" data-type="视频测试">
-        <video id="myVideo" src="{{video}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture' bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
+        <video id="myVideo" src="{{video}}" binderror="videoErrorCallback" poster="https://pic2.zhimg.com/80/v2-c9d2b9d547e9e4ccd604ffa77cddb311_720w.jpg" danmu-list="{{danmuList}}" enable-danmu danmu-btn show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture' bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
         <text>家电清洗</text>
       </view>
     </view>
